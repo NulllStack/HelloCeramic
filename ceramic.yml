@@ -1,0 +1,22 @@
+app:
+    package: mycompany.HelloCeramic
+    name: HelloCeramic
+    displayName: HelloCeramic
+    author: My Company
+    version: '1.0'
+
+    plugins:
+        #- arcade
+        #- nape
+        #- ui
+        # - elements
+
+    libs:
+        #- somelib
+        #- somelib: someversion
+        #- somelib: git:https://github.com/somelibauthor/somelib.git
+        # - hxNoise
+    defines:
+        #- some_define
+        #- some_define: 'some value'
+
