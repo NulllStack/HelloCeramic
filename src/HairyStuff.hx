@@ -1,6 +1,5 @@
 import hxnoise.Perlin;
 import ceramic.Color;
-import ceramic.AlphaColor;
 import ceramic.Scene;
 import ceramic.Line;
 
