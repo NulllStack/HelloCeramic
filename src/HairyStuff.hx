@@ -7,7 +7,6 @@ class HairyStuff extends Scene {
 	var fibre_brick:FibreBrick;
 
 	override function create() {
-		super.create();
 		fibre_brick = new FibreBrick(width / 3.5, height / 4, 100, 100);
 	}
 
@@ -24,7 +23,6 @@ class FibreBrick {
 	var x:Float;
 	var y:Float;
 
-	var step:Float = 0;
 	var noiseStep = 0.01;
 	var noiseOffset = 0.03;
 
@@ -51,8 +49,6 @@ class FibreBrick {
 	}
 
 	public function update() {
-		step += noiseStep;
-
 		xStep += noiseStep;
 		yStep += noiseStep;
 
