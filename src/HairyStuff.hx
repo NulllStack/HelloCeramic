@@ -7,6 +7,7 @@ class HairyStuff extends Scene {
 	var fibre_brick:FibreBrick;
 
 	override function create() {
+		super.create();
 		fibre_brick = new FibreBrick(width / 3.5, height / 4, 100, 100);
 	}
 
